@@ -1,0 +1,44 @@
+body{
+    background-image: url('/assets/Circuit\ Board.svg');
+}
+
+.container{
+    /* background-color: #f2f0f0fc; */
+    /* border: #ff0000 solid 2px; */
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.contenedor{
+    background-color: #C0392B;
+    color: #ffffff;
+    max-width: 450px;
+    margin: 50px auto;
+    border-radius: 6px;
+}
+
+.col-sm > .contenedor{
+    margin: 10px auto;
+    background-color: #00796B;
+    color: #292526;
+    margin-top: 10%;
+}
+
+#hora{
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#fecha{
+    text-align: center;
+    color: #ffffff;
+}
+
+.contornoAnimado{
+    border: #292526 solid 1px;
+    box-shadow: #00796B;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #292526;
+}
